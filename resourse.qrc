@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>bg.jpg</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>BGM.mp3</file>
+        <file>cointool.mp3</file>
+    </qresource>
+</RCC>

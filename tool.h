@@ -7,10 +7,10 @@ using namespace std;
 class Tool:public RPGobj
 {
 public:
-    Tool();
+    Tool(){}
     ~Tool(){}
 
-    void erase();
+    void onErase();
 
 };
 

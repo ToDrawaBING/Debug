@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/images">
         <file>bg.jpg</file>
+        <file>test.png</file>
     </qresource>
     <qresource prefix="/music">
         <file>BGM.mp3</file>

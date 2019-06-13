@@ -9,7 +9,6 @@ class Tool:public RPGobj
 public:
     Tool(){}
     ~Tool(){}
-
     void onErase();
 
 };

@@ -1,7 +1,18 @@
 <RCC>
     <qresource prefix="/images">
-        <file>bg.jpg</file>
         <file>test.png</file>
+        <file>BeiJing.jpg</file>
+        <file>bj2.jpg</file>
+        <file>mushroom.png</file>
+        <file>mushroom2.png</file>
+        <file>knight.png</file>
+        <file>set1.png</file>
+        <file>set2.png</file>
+        <file>wizard.png</file>
+        <file>towerset.png</file>
+        <file>tower.png</file>
+        <file>bullet.png</file>
+        <file>win.png</file>
     </qresource>
     <qresource prefix="/music">
         <file>BGM.mp3</file>

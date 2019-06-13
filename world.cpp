@@ -41,7 +41,7 @@ void World::initWorld(){
     this->_objs.push_back(t1);
 
     QMediaPlayer * player = new QMediaPlayer;
-    player->setMedia(QUrl(":/music/BGM.mp3"));
+    player->setMedia(QUrl("qrc:/music/BGM.mp3"));
     player->setVolume(30);
     player->play();
 
@@ -56,14 +56,17 @@ void World::show(QPainter *painter){
 }
 
 void World::erasObj(int x, int y){
-    vector<RPGobj*>::iterator it;
+    vector<RPGobj*>::iterator it; //迭代器
     for(it=this->_objs.begin();it!=this->_objs.end();it++){
        if (((*it)->getPosX() == x) && ((*it)->getPosY()==y) ){
             (*it)->onErase();
-            this->_objs.erase(it);//删除world里的物体
             delete (*it);
+            this->_objs.erase(it);//删除world里的物体            
             break;
         }
+       else {
+           it++;
+       }
     }
 }
 
